@@ -1,0 +1,40 @@
+#lobby-interface {
+  max-width: 400px;
+  max-height: 250px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.error-list {
+  list-style-type: none;
+  display: inline-block; /* Adjust display property */
+  margin: 5px 0;
+  border: 1px solid #ff5a5a;
+  background-color: #ffebeb;
+  border-radius: 5px;
+}
+
+.error-list li {
+  color: #ff5a5a; /* Set color of error message */
+  font-size: 16px; /* Set font size of error message */
+}
